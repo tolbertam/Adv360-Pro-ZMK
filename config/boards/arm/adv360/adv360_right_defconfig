@@ -61,8 +61,10 @@ CONFIG_BUILD_OUTPUT_UF2=y
 # tolbertam customizations
 
 # Enable deep sleep and enter after 10 minutes (default 15m)
-CONFIG_ZMK_SLEEP=y
-CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=600000
+# Temporarily doing this for the left side only to see if that fixes problem
+# of right side not being able to see left.
+# CONFIG_ZMK_SLEEP=y
+# CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=600000
 
 # Go idle after 1 minute (default 30s)
 CONFIG_ZMK_IDLE_TIMEOUT=60000
