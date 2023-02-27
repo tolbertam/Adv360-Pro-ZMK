@@ -71,4 +71,4 @@ CONFIG_ZMK_IDLE_TIMEOUT=60000
 
 # Set battery report interval to 1 year, this should in theory reduce
 # the chance of waking up computers to report battery.
-ZMK_BATTERY_REPORT_INTERVAL=31536000
+CONFIG_ZMK_BATTERY_REPORT_INTERVAL=31536000
