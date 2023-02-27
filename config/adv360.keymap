@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-       &kp ESC     &kp N1    &kp N2    &kp N3          &kp N4  &kp N5                 &kp HOME                                                                                             &kp END  &kp N6     &kp N7     &kp N8    &kp N9      &kp N0  &kp GRAVE
-       &kp TAB      &kp Q     &kp W     &kp E           &kp R   &kp T             &kp LG(PLUS)                                                                                           &kp PG_UP   &kp Y      &kp U      &kp I     &kp O       &kp P   &kp BSLH
- &mt LCTRL ESC      &kp A     &kp S   &lt 2 D         &lt 3 F   &kp G            &kp LG(MINUS)  &kp LG(NUMBER_0)              &kp LALT                              &kp LGUI  &kp RCTRL  &kp PG_DN   &kp H      &kp J      &kp K     &kp L  &lt 1 SEMI    &kp SQT
-     &kp LSHFT      &kp Z     &kp X     &kp C           &kp V   &kp B                    &none             &none                &reset   &none   &none                &reset      &none      &none   &kp N      &kp M  &kp COMMA   &kp DOT    &kp FSLH  &kp RSHFT
-         &mo 4  &kp GRAVE  &kp LALT  &kp LALT  &mt LGUI EQUAL                        &kp SPACE          &kp BSPC  &rgb_ug RGB_MEFS_CMD                  &rgb_ug RGB_MEFS_CMD   &kp BSPC  &kp ENTER          &kp LC(R)  &kp LC(D)  &kp LBKT    &kp RBKT      &mo 5
+       &kp ESC     &kp N1    &kp N2    &kp N3          &kp N4  &kp N5                 &kp HOME                                                                                                 &kp END  &kp N6     &kp N7     &kp N8    &kp N9      &kp N0  &kp GRAVE
+       &kp TAB      &kp Q     &kp W     &kp E           &kp R   &kp T             &kp LG(PLUS)                                                                                               &kp PG_UP   &kp Y      &kp U      &kp I     &kp O       &kp P   &kp BSLH
+ &mt LCTRL ESC      &kp A     &kp S   &lt 2 D         &lt 3 F   &kp G            &kp LG(MINUS)  &kp LG(NUMBER_0)                &kp LALT                                &kp LGUI  &kp RCTRL  &kp PG_DN   &kp H      &kp J      &kp K     &kp L  &lt 1 SEMI    &kp SQT
+     &kp LSHFT      &kp Z     &kp X     &kp C           &kp V   &kp B                    &none             &none                  &reset   &none   &none                  &reset      &none      &none   &kp N      &kp M  &kp COMMA   &kp DOT    &kp FSLH  &kp RSHFT
+         &mo 4  &kp GRAVE  &kp LALT  &kp LALT  &mt LGUI EQUAL                        &kp SPACE          &kp BSPC  &rgb_ug RGB_MEFS_CMD 5                  &rgb_ug RGB_MEFS_CMD 5   &kp BSPC  &kp ENTER          &kp LC(R)  &kp LC(D)  &kp LBKT    &kp RBKT      &mo 5
             >;
         };
 
