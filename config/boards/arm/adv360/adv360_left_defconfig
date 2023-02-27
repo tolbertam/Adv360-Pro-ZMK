@@ -62,9 +62,9 @@ CONFIG_BUILD_OUTPUT_UF2=y
 
 # tolbertam customizations
 
-# Enable deep sleep and enter after 10 minutes (default 15m)
+# Enable deep sleep and enter after 30 minutes (default disabled/15m)
 CONFIG_ZMK_SLEEP=y
-CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=600000
+CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=1800000
 
 # Go idle after 1 minute (default 30s)
 CONFIG_ZMK_IDLE_TIMEOUT=60000
